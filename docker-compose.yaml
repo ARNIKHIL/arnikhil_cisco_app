@@ -4,7 +4,7 @@ services:
     image : ar_nikhil_image:webappv1
     build :
       context: .
-      dockerfile: day4app.dockerfile
+      dockerfile: Dockerfile
     container_name: ar_nikhil_webc1
     ports:
     - 1777:80
