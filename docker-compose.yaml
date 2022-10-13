@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  ar_nikhil_app1:
+    image : ar_nikhil_image:webappv1
+    build :
+      context: .
+      dockerfile: day4app.dockerfile
+    container_name: ar_nikhil_webc1
+    ports:
+    - 1777:80
